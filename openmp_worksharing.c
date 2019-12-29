@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     #pragma omp parallel for
     for (int i = 0; i < ITERATIONS; ++i)
     {
-        //It will show a hello world message and the number of thread
+        //It will show a message with the value of i and the number of thread
         printf("Iteration # %d from thread # %d\n", i, omp_get_thread_num());
     }
 

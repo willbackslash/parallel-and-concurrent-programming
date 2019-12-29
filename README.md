@@ -14,7 +14,7 @@ Compiling
 > clang -Xpreprocessor -fopenmp -I/usr/local/include -L/usr/local/lib -lomp openmp_{{example}}.c -o openmp_{{example}}.out
 
 Running
-> ./openmp_<example>.out
+> ./openmp_{{example}}.out
 
 #### Others
 > gcc openmp_{{example}}.c -o openmp_{{example}}.out -fopenmp
