@@ -11,13 +11,13 @@ Each C file in this repo is an example by itself, so you will need to compile an
 
 #### MACOS
 Compiling
-> clang -Xpreprocessor -fopenmp -I/usr/local/include -L/usr/local/lib -lomp openmp_<example>.c -o openmp_<example>.out
+> clang -Xpreprocessor -fopenmp -I/usr/local/include -L/usr/local/lib -lomp openmp_{{example}}.c -o openmp_{{example}}.out
 
 Running
 > ./openmp_<example>.out
 
 #### Others
-> gcc openmp_<example>.c -o openmp_<example>.out -fopenmp
+> gcc openmp_{{example}}.c -o openmp_{{example}}.out -fopenmp
 
 Running
-> ./openmp_<example>.out
+> ./openmp_{{example}}.out
